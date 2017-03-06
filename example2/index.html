@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+  button{
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      background-color: #0078DD;
+      color: white;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    button:hover{
+      cursor: pointer;
+    }
+    input{
+      padding: 5px;
+      font-weight: bold;
+    }
+</style>
+  <title>form</title>
+</head>
+<body>
+
+<form method="POST" enctype="application/x-www-form-urlencoded">
+  <input type="text" id="USState" name="USState">
+</form>
+<br><br><br>
+<button id="enviarAJAX" name="enviarAJAX">Enviar</button>
+
+
+<div id="json">
+
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="post.js"></script>
+</body>
+</html>

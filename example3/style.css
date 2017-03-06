@@ -1,0 +1,150 @@
+.color-red{
+  color: #B51D1D;
+}
+.color-green{
+  color: #1DB522;
+}
+
+// VERTICALS
+.vertical-top{
+  vertical-align: top;
+}
+.vertical-bottom{
+  vertical-align: bottom;
+}
+.vertical-middle{
+  vertical-align: middle;
+}
+
+// BLOCKS
+.inline-block{
+  float: none !important;
+  display: inline-block !important;
+  vertical-align: middle;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+.center-block{
+  margin: 0 auto;
+}
+.no-float{
+  float: none;
+}
+
+// CURSORS
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+// TEXT SIZES
+.text-small{
+  font-size: .5em;
+}
+.text-normal{
+  font-size: 1em;
+}
+.text-medium{
+  font-size: 1.2em;
+}
+.text-big{
+  font-size: 1.5em;
+}
+.light{
+  font-weight: 300;
+}
+.regular{
+  font-weight: 400;
+}
+.medium{
+  font-weight: 500;
+}
+.bold{
+  font-weight: 700;
+}
+
+// PADDINGS
+.no-padding{
+  padding: 0;
+}
+.no-padding-top{
+  padding-top: 0 !important;
+}
+.no-padding-bottom{
+  padding-top: 0 !important;
+}
+.padding{
+  padding: 5px;
+}
+.extra-small-padding{
+  padding: 10px;
+}
+.small-padding{
+  padding: 15px;
+}
+.medium-padding{
+  padding: 20px;
+}
+.padding-top{
+  padding-top: 1em;
+}
+.padding-top-extra-small{
+  padding-top: 2em;
+}
+.padding-top-small{
+  padding-top: 3em;
+}
+.padding-top-medium{
+  padding-top: 4em;
+}
+.padding-top-big{
+  padding-top: 5em;
+}
+.padding-right{
+  padding-right: 1em;
+}
+.padding-bottom{
+  padding-bottom: 1em;
+}
+.padding-left{
+  padding-left: 1em;
+}
+
+
+// MARGINGS
+.no-margin{
+  margin: 0;
+}
+.margin-top{
+  margin-top: 10px;
+}
+.margin-right{
+  margin-right: 10px;
+}
+.margin-bottom{
+  margin-bottom: 10px;
+}
+.margin-bottom-big{
+  margin-bottom: 30px;
+}
+.margin-bottom-super-big{
+  margin-bottom: 40px;
+}
+.margin-left{
+  margin-left: 10px;
+}
+
+.hover-btn{
+  position: relative;
+}
+
+.hover-btn button{
+  display: none;
+  position: absolute;
+  left: 40%;
+  top: 100px;
+}
+.hover-btn:hover button{
+  display: block;
+  cursor: pointer;
+}

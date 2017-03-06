@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    button{
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      background-color: #0078DD;
+      color: white;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    button:hover{
+      cursor: pointer;
+    }
+    #loadingDiv{
+      width: 100%;
+      font-size: 3em;
+      color: #B3DC46;
+      background-color: #887759 !important;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+
+  <title>web service</title>
+</head>
+<body>
+<div id="loadingDiv">...CARGANDO...</div>
+
+<button onclick="cities()">Ejecutar examen</button>
+
+<div id="e1">
+  <h1>5 Ciudades con mas ventas:</h1>
+  <ul id="punto1">
+  </ul>
+</div>
+
+<div id="e2">
+  <h1>Valor total de las ventas que no tienen ciudades:</h1>
+  <ul id="punto2">
+  </ul>
+</div>
+
+<div id="e3">
+  <h1>Por Mes cual es el promedio de venta:</h1>
+  <ul id="punto3">
+  </ul>
+</div>
+
+<div id="e4">
+  <h1>los 5 Clientes con Menores Ventas:</h1>
+  <ul id="punto4">
+  </ul>
+</div>
+
+<script>
+
+</script>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="ws.js"></script>
+</body>
+</html>
